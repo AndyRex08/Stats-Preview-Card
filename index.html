@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body>
@@ -14,27 +15,28 @@
       <div class="textContent">
         <h4>Get <span class="coloredText">insights</span> that help your business grow.</h4>
 
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        <p style="margin-top: -10px;" class="discover">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
         experience, and overall efficiency.</p>
 
         <div class="figureSection">
           <div class="companies">
-            <p style="color: white;">10k+</p>
-            <p>companies</p>
+            <p><span class="mainCompanies">10k+</span> </p>
+            <p style="text-transform: uppercase;">companies</p>
           </div>
           <div class="templates">
-            <p style="color: white;">314</p>
-            <p>templates</p>
+            <p style="color: white;"><span class="mainTemplates">314</span></p>
+            <p style="text-transform: uppercase;">templates</p>
           </div>
           <div class="queries">
-            <p style="color: white;">12M+</p> 
-            <p>queries</p>
+            <p style="color: white;"><span class="mainQueries">12M+</span></p> 
+            <p style="text-transform: uppercase;">queries</p>
           </div>
         </div>
       </div>
     </div>
     <div class="imageContainer">
       <img src="./images/image-header-desktop.jpg" alt="an image of a woman using a PC while another laughs and looks on">
+      <img class="mobileImage" src="./images/image-header-mobile.jpg" alt="an image of a woman using a PC while another laughs and looks on">
     </div>
 
         <!-- <div class="attribution">
